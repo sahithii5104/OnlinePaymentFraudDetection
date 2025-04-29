@@ -72,6 +72,26 @@ Copy
 Edit
 
 ---
+## 📈 Results
+
+Model	Accuracy	Precision	Recall	F1-Score	ROC-AUC
+Logistic Regression	99.2%	87.3%	78.9%	82.9%	0.96
+Random Forest	99.6%	92.5%	84.7%	88.4%	0.98
+XGBoost	99.7%	94.1%	86.2%	89.9%	0.99
+
+
+## ⚠️ Limitations
+Based on anonymized data — real-world data may vary in feature significance.
+
+Highly imbalanced data can affect performance if not handled carefully.
+
+Could benefit from more real-time processing pipeline integration.
+
+
+## 📌 Screenshots
+
+![image](https://github.com/user-attachments/assets/d1210249-3e44-4f2b-a451-7aebedcb42de)
+
 
 ## ⚙️ Installation
 
@@ -94,18 +114,4 @@ Edit
 python scripts/predict.py --input data/sample_transaction.csv
 Load model for real-time prediction (via joblib or pickle).
 
-📈 Results
-
-Model	Accuracy	Precision	Recall	F1-Score	ROC-AUC
-Logistic Regression	99.2%	87.3%	78.9%	82.9%	0.96
-Random Forest	99.6%	92.5%	84.7%	88.4%	0.98
-XGBoost	99.7%	94.1%	86.2%	89.9%	0.99
-📸 Screenshots
-
-⚠️ Limitations
-Based on anonymized data — real-world data may vary in feature significance.
-
-Highly imbalanced data can affect performance if not handled carefully.
-
-Could benefit from more real-time processing pipeline integration.
-
+---
